@@ -1,0 +1,178 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+:root {
+  --width: 0px;
+  --height: 0px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.select_dims {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.wh_dims {
+  font-size: 20px;
+}
+
+.t_page1 td {
+  padding: 10px;
+}
+
+.ad_imgs {
+  height: var(--height);
+  width: var(--width);
+  object-fit: cover;
+  overflow: hidden;
+  transform-origin: center top;
+}
+
+.img_outer {
+  margin: 30px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  /* width: 100%; */
+}
+
+.url_in {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.save-data {
+  margin-left: 50px;
+  background-color: #c4c1c1;
+  padding: 5px;
+  border-color: #777;
+}
+
+
+.form-group {
+  margin: 30px;
+  width: 35%;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.url-input {
+  float: right;
+  /* margin-right: 200px; */
+  width: 50%;
+}
+
+.ad_field {
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 40px;
+}
+
+.page2_button {
+  margin: 50px 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.page1_button {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.last {
+  margin: 30px;
+}
+
+.page3_heading {
+  margin: 0 50px;
+}
+
+.rclass {
+  margin-left: 630px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.rnumber {
+  margin-left: 900px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.anima {
+  width: 570px;
+}
+
+.asset_name {
+  margin-left: 50px;
+}
+
+.delay_num {
+  float: right;
+  margin-top: 20px;
+  width: 70px;
+  margin-right: 60px;
+}
+
+.select_anim {
+  position: absolute;
+  margin-left: 197px;
+  margin-top: -38px;
+  width: 150px;
+  display: block;
+}
+
+.page3_button {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.addFieldForm {
+  background: #F5F5F5;
+  padding: 20px;
+  width: 300px;
+  margin-left: 33px;
+  margin-bottom: 30px;
+  display: none;
+}
+
+.addFieldForm input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#button {
+  background: lightgreen;
+  color: #666;
+  border: none;
+  padding: 7px 13px;
+  margin-left: 20px;
+  margin-top: -20px;
+  border: 1px solid black;
+  color: black;
+}
+
+.clickable {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  gap: 30px;
+}
